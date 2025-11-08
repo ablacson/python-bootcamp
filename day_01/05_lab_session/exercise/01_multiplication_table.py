@@ -1,6 +1,4 @@
 # TODO: Ask the user for an integer input
-number = int(input("Pick a number: "))
-
 # TODO: Print the multiplication table for that number
 """
 Example:
@@ -17,3 +15,13 @@ number = 3
 3 x 9 = 27
 3 x 10 = 30
 """
+
+def multiplication_table(x):
+    for multiplied in range(1,(10+1)):
+        print(f"{multiplied}*{x}={multiplied*x}")
+
+number = int(input("Pick an integer input: "))
+multiplication_table(number)
+
+
+

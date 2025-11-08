@@ -7,3 +7,9 @@
 """
 
 # TODO: Use the function once
+
+def line_generator(number):
+    for line in range(number): #This item gets repeated
+        print("Line",number+1)
+
+line_generator(19)
