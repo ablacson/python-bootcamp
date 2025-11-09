@@ -2,6 +2,8 @@
 country_codes = {
     "PH": "Philippines",
     "US": "United States",
+    "CA": "Canada",
+    "JP": "Japan",
 }
-
-print(country_codes)
+for name, code in country_codes.items():
+    print(country_codes["CA"])
