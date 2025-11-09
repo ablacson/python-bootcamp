@@ -2,3 +2,7 @@
 # Use variables for the name and programming language
 # Hello! My name is Jeff
 # I am learning Python
+name = "Kris"
+language = "Python"
+
+print("Hello! my name is", name,"\nI am learning",language)
