@@ -2,8 +2,10 @@ def get_longest_word(text):
     """TODO: Add decoding process"""
     # For each word in the sentence, check length/len. If longest, store, then print.
     words = text.split()
-    return max(words, key=len) if words else""
-
+    if words:
+        return max(words, key=len)
+    else:
+        return""
 
 
 
