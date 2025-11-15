@@ -43,4 +43,15 @@ age_entry.pack(side="right")
 # TODO: Create function for saving values to JSON
 # TODO: Create button for submit + save
 
+
+def save_data(event=None):
+    data ={
+        "Name": name_entry_var.get(),
+        "Age": age_entry_var.get(),
+        "Theme": theme_var.get(),
+    }
+
+
+
+
 root.mainloop()
