@@ -1,7 +1,12 @@
 def get_longest_word(text):
     """TODO: Add decoding process"""
-    longest_word = None
-    return longest_word
+    # For each word in the sentence, check length/len. If longest, store, then print.
+    words = text.split()
+    if words:
+        return max(words, key=len)
+    else:
+        return""
+
 
 
 # "The quick brown fox jumps" -> "quick"
@@ -12,3 +17,7 @@ print(get_longest_word("I love programming in Python!"))
 
 # "" -> ""
 print(get_longest_word(""))
+
+
+
+
