@@ -1,6 +1,6 @@
 import tkinter
 
-root = tkinter.Tk()
+root = tkinter.Tk() #<--- What this translates to is "Let's make a class ()"
 root.title("Sample GUI Application")
 root.geometry("1200x400")
 

@@ -2,8 +2,7 @@ def spend(expenses):
     """Add a new cost in expenses"""
     new_expense = float(input("Enter new expense: "))
     expenses.append(new_expense)
-    print(f"Added PHP {new_expense} to expenses")
-
+    print(f"Added PHP {new_expense}
 
 def refund(expenses):
     """Remove the last cost added (if any)"""
